@@ -1,0 +1,150 @@
+
+@font-face{
+	font-family:'Agane';
+	src:url("../fontes/agane55.ttf");
+	}
+@font-face{
+	font-family:'HK';
+	src:url("../fontes/HKR.otf");
+	}
+@font-face{
+	font-family:'Industri';
+	src:url("../fontes/Industri.otf");
+	}
+@font-face{
+	font-family:'HKN';
+	src:url("../fontes/HKM.ttf");}
+@font-face{
+	font-family:'titulos';
+	src:url("../fontes/MontserratBold.ttf");	
+	}
+*{
+	margin:opx auto;
+	padding:0px;
+}
+html{
+	font-size: 14px;
+}
+.Agane{
+	font-family: 'Agane';
+	font-weight: lighter;
+	}
+.HK{
+	font-family:'HK';
+	}
+.Industri{
+	font-family:'Industri';
+	}
+.HKN{
+	font-family:'HKN';
+	}
+.titulos{
+	font-family:'titulos';
+	font-size: 3em;
+	}
+.subtitulo{
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+header{
+	position:relative;
+	top:-20px;
+	}
+#topo{
+	background-image: url(../img/baixomenu.jpg);
+    height: 67vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#topobotao{
+	font-size: 2rem;
+    position: relative;
+    top: 65px;
+}
+#textoTopo{
+	color:rgb(255,255,255); 
+	font-weight:bolder;
+	font-size: 37px;
+	position: relative;
+	bottom: 80px;
+	}
+.quemFaz{
+	font-size:1.7rem; 
+	color:#000; 
+	font-style:italic;
+}
+#salSabor{
+	margin-top: 65px;
+}
+#butonhistory{
+	 background-color:transparent; 
+	 color:#a97b50; 
+	 border:solid 3px #a97b50; 
+	 padding:0.650em; 
+	 font-size:0.8em;
+	 border-radius:50px; 
+	 font-weight:bold; 
+	 font-family:'Agane';
+}
+#quemFaz{
+	font-size: 2.5em;
+    color: #a97b50;
+    font-weight: bolder;
+	}
+h1{
+	text-align:center;
+	clear:both;
+  	font-size:2rem;
+  }
+h2{
+	font-size:1.8rem
+}
+.beneficios{
+  	border-right:solid 2px #CCC;
+	padding:2em 1em 1em 1em;
+	margin-bottom:1em;
+	background-color:rgb(255,255,255);
+	height: 350px;
+      }
+.vida{
+	font-size:2em;
+	}
+.vidaP{
+	font-size: 1em;
+	}
+#contextosaude{
+	padding:0.8em;
+	width:100%; 
+	box-shadow: 5px 5px 70px 5px #CCC;
+}
+#contextoSaude h1{
+	font-size:1.3em;
+	}
+#contextoSaude p{
+	font-size:1em;
+	}
+  
+#saladas{
+    background-image: url(../img/pratoO.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 235px;
+    padding-top: 453px;
+    position: relative;
+    top: 57px;
+   }
+#saladas h1{
+	text-align:right; 
+	font-size:1.5em;
+	
+	}
+#saladas p{
+	text-align:right; 
+	font-size:1.4rem; 
+	font-style:italic;
+	
+}
